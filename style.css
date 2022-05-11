@@ -10,38 +10,44 @@ body{
 }
 
 .container div{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
   position: absolute;
 }
 
 .box1{
-  transition-duration: 4s;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition-duration: 2s;
   transition-timing-function: linear;
   background-color: blue;
   left: 0%;
 }
 
 .container:hover .box1{
-  left: 80%;
+  left: 45%;
 }
 
 .box2{
-  transition-duration: 4s;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition-duration: 2s;
   transition-timing-function: linear;
   background-color: yellow;
   left: 80%;
 }
 
 .container:hover .box2{
-  left: 0%;
+  left: 45%;
 }
 
 .box3{
-  transition-duration: 4s;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition-duration: 2s;
   transition-delay: 2s;
-  left: 40%;
+  left: 48%;
   transition-timing-function: linear;
   background-color: green;
   bottom: 100%;
@@ -50,4 +56,20 @@ body{
 .container:hover .box3{
   transition-timing-function: linear;
   bottom: 20%;
+}
+
+.container .box4{
+  width: 0px;
+  height: 0px;
+  border-top:100px solid purple;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid transparent;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  left: 40%;
+}
+
+.container:hover .box4{
+  left: 40%;
 }
