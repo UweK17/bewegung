@@ -24,7 +24,7 @@ body{
 }
 
 .container:hover .box1{
-  left: 45%;
+  left: 50%;
 }
 
 .box2{
@@ -34,11 +34,11 @@ body{
   transition-duration: 2s;
   transition-timing-function: linear;
   background-color: yellow;
-  left: 80%;
+  left: 98%;
 }
 
 .container:hover .box2{
-  left: 45%;
+  left: 50%;
 }
 
 .box3{
@@ -67,9 +67,9 @@ body{
   border-left: 100px solid transparent;
   transition-duration: 2s;
   transition-timing-function: linear;
-  left: 45%;
+  left: 50%;
 }
 
 .container:hover .box4{
-  left: 40%;
+  left: 50%;
 }
