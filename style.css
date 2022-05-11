@@ -67,7 +67,7 @@ body{
   border-left: 100px solid transparent;
   transition-duration: 2s;
   transition-timing-function: linear;
-  left: 40%;
+  left: 45%;
 }
 
 .container:hover .box4{
