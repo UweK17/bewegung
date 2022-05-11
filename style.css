@@ -47,7 +47,7 @@ body{
   border-radius: 50%;
   transition-duration: 2s;
   transition-delay: 2s;
-  left: 50%;
+  left: 49.5vw;
   transition-timing-function: linear;
   background-color: green;
   bottom: 100%;
@@ -61,15 +61,15 @@ body{
 .container .box4{
   width: 0px;
   height: 0px;
-  border-top:100px solid purple;
+  border-top:10vw solid purple;
   border-right: 100px solid transparent;
   border-bottom: 100px solid transparent;
   border-left: 100px solid transparent;
   transition-duration: 2s;
   transition-timing-function: linear;
-  left: 50%;
+  left: 45vw;
 }
 
 .container:hover .box4{
-  left: 50%;
+  left: 45vw;
 }
